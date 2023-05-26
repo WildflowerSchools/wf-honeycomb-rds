@@ -1,18 +1,18 @@
 [project]
-name = "PROJECT_NAME"
+name = "wf-honeycomb-rds"
 dynamic = ["version"]
 
 [tool.poetry]
-name = "PROJECT_NAME"
+name = "wf-honeycomb-rds"
 version = "0.1.0"
-description = ""
-authors = ["NAME <EMAIL>"]
-maintainers = ["NAME <EMAIL>"]
+description = "A library for performing basic read/write operations directly from/to the RDS database which underlies Wildflower's Honeycomb service"
+authors = ["Theodore Quinn <ted.quinn@wildflowerschools.org>"]
+maintainers = ["Theodore Quinn <ted.quinn@wildflowerschools.org>"]
 readme = "README.md"
 keywords = []
-repository = "<<GITHUB URL>>"
+repository = "https://github.com/WildflowerSchools/wf-honeycomb-rds"
 license = "MIT"
-packages = [{include = "MODULE_NAME"}]
+packages = [{include = "honeycomb_rds"}]
 classifiers = [
     "Intended Audience :: Developers",
     "License :: OSI Approved :: MIT License",

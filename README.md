@@ -1,10 +1,10 @@
-# MODULE_NAME
+# honeycomb_rds
 
-SHORT_DESCRIPTION
+A library for performing basic read/write operations directly from/to the RDS database which underlies Wildflower's Honeycomb service
 
 ## Installation
 
-`pip install PYPI_PACKAGE_NAME`
+`pip install wf-honeycomb-rds`
 
 ## Development
 

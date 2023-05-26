@@ -5,10 +5,10 @@ publish: build
     poetry publish
 
 format:
-    black MODULE_NAME
+    black honeycomb_rds
 
 lint:
-    pylint MODULE_NAME
+    pylint honeycomb_rds
 
 test:
     pytest tests/
